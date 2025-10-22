@@ -1279,3 +1279,74 @@ footer .credits a {
     bottom: 15px;
   }
 }
+
+/* --- 포트폴리오 모달 크기 키우기 --- */
+@media (min-width: 1200px) {
+  /* .modal-xl의 기본 최대 너비(1140px)를 덮어씁니다. */
+  .modal-xl {
+    max-width: 55vw; /* 화면 너비의 95%를 사용 */
+  }
+}
+/* 모달 컨텐츠의 기본 테두리 제거 */
+.modal-content {
+  border: none;
+  border-radius: 0;
+}
+
+/* 팝업창 내부 여백(padding) 설정 및 닫기 버튼 기준점 설정 */
+.modal-body.portfolio-modal-body {
+  padding: 2rem 3rem;
+  position: relative;
+}
+
+/* 커스텀 닫기 버튼 (X) */
+.portfolio-modal-close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  font-size: 3rem; /* 아이콘 크기 */
+  font-weight: 300; /* 얇게 */
+  color: #000;
+  opacity: 0.7;
+  z-index: 10;
+}
+.portfolio-modal-close:hover {
+  opacity: 1;
+}
+
+/* 이미지 2번의 작은 소제목 스타일 (OVERVIEW, CLIENT 등) */
+.portfolio-modal-subtitle {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #1e1e1e;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+/* 이미지 2번의 설명 텍스트 스타일 */
+.portfolio-modal-text {
+  font-size: 0.9rem;
+  color: #4e4e4e;
+}
+
+/* 메인 이미지 스타일 (그림자 추가) */
+.portfolio-modal-img {
+  border-radius: 0;
+  box-shadow: 0 10px 30px -10px rgba(0,0,0,0.2);
+}
+
+/* 상세 정보 행(Row)의 위쪽 여백 */
+.portfolio-modal-details {
+  margin-top: 2rem;
+}
+
+/* 모바일 화면에서 상세 정보가 너무 붙지 않도록 아래 여백 추가 */
+@media (max-width: 767px) {
+  .portfolio-modal-details .col-6 {
+    margin-bottom: 1.5rem;
+  }
+  .modal-body.portfolio-modal-body {
+    padding: 2rem;
+  }
+}
