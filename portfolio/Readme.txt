@@ -1,6 +1,4 @@
-Thanks for downloading this theme!
+개발자 박정주의 4년 이상 공공사업 웹사이트 개발 경력을 담은 포트폴리오입니다.
+본 포트폴리오는 신규 시스템 기획, 요구사항 분석, 시스템 설계, 개발 구현, 최종 배포 및 유지보수까지 웹 개발 전 주기를 경험하며 다져온 실무 역량과 기술 스택을 소개하는 목적으로 제작되었습니다.
+작업 기간: 2021.09 ~ 2025.12 (약 4년 2개월)
 
-Theme Name: DevFolio
-Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-Author: BootstrapMade.com
-Author URL: https://bootstrapmade.com
